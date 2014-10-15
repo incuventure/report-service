@@ -1,0 +1,537 @@
+<html><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+
+<style>
+
+    div.header {
+        display: block; text-align: center;
+        border: double;   /* debug mode: see space occupied by header */
+        position: running(header);}
+
+    div.footer {
+        display: block; text-align: center;
+        border: double;   /* debug mode: see space occupied by footer */
+        position: running(footer);
+    }
+
+    div.content {page-break-after: always;}
+
+    @page {
+        size: 11in 8.5in;
+        margin-left: 1in;
+        margin-right: 1in;
+        margin-top: 2in;   /* allocate space if it's big */
+        @top-center { content: element(header);  }
+        @bottom-center { content: element(footer) }
+    }
+
+    #pagenumber:before {
+        content: counter(page);
+    }
+
+    #pagecount:before {
+        content: counter(pages);
+    }
+
+    table {
+        -fs-table-paginate: paginate;
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <img src="http://www.dbm.gov.ph/wp-content/uploads/2012/03/Header.jpg"/>
+    this is the header
+</div>
+
+<div class="footer">
+    <span id="pagenumber"/> of <span id="pagecount"/><br/>
+    this is the footer<br/>
+</div>
+
+
+<div>
+    <br/><br/>
+    This is the first long table:
+    <br/><br/>
+
+    <table border="0" cellpadding="2" cellspacing="0">
+        <thead>
+        <tr>
+            <th>ID</th>
+            <th>First Name</th>
+            <th>Last Name</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr><tr>
+            <td>1</td>
+            <td>First Name 1</td>
+            <td>Last Name 1</td>
+        </tr>
+        </tbody>
+        </table>
+
+    <br/><br/>
+    This is another table:
+    <br/><br/>
+
+<!--another long table-->
+    <table border="0" cellpadding="2" cellspacing="0">
+        <thead>
+        <tr>
+            <th>Department Name</th>
+            <th>Department Head</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr>
+        <tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr><tr>
+            <td>Department ABC</td>
+            <td>Mr. Abc Zjakakaa</td>
+        </tr>
+        </tbody>
+   </table>
+
+</div>
+</body></html>
